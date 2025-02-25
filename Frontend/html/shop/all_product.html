@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/default.css" />
+    <link rel="stylesheet" href="/css/genral.css" />
+    <link rel="stylesheet" href="/css/quries.css" />
+    <link rel="stylesheet" href="/css/shop/shop.css" />
+    <link rel="stylesheet" href="/css/shop/all_product/all_product.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="">
+    <header class="header">
+      <a href="#section-hero">
+        <img src="/media/logo.png" alt="Rutu masale logo" class="logo" />
+      </a>
+      <nav class="main-nav-container">
+        <div class="nav-left main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <form class="max-w-md mx-auto search_form">
+                <label for="search_box" class="sr-only">Search here</label>
+                <div class="relative">
+                  <!-- <div
+                    class="absolute inset-y-0 right-0 p-4 pr-20 flex items-center pl-3 pointer-events-none search_form button"
+                  >
+                    <ion-icon class="nav-icon" name="search-outline"></ion-icon>
+                  </div> -->
+                  <input
+                    type="text"
+                    id="search_box"
+                    class="block w-full p-4 pl-10"
+                    placeholder="Search..."
+                    required
+                  />
+                  <button type="submit" class="search_form_button">
+                    <ion-icon name="search-outline"></ion-icon>
+                  </button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="#"
+                ><ion-icon class="nav-icon" name="heart-outline"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#"
+                ><ion-icon class="nav-icon" name="cart-outline"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#"
+                ><ion-icon
+                  class="nav-icon"
+                  name="person-circle-outline"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon
+          class="icon-mobile-nav md hydrated"
+          name="menu-outline"
+          role="img"
+        ></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav md hydrated"
+          name="close-outline"
+          role="img"
+        ></ion-icon>
+      </button>
+    </header>
+    <main class="body-section">
+      <div class="side-bar">
+        <div class="filters">
+          <div class="filter">
+            <h4 class="filter_title">Category</h4>
+            <hr />
+            <div class="filter_items">
+              <div class="filter_item">
+                <input type="checkbox" id="veg" />
+                <label for="veg">Veg</label>
+              </div>
+              <div class="filter_item">
+                <input type="checkbox" id="non-veg" />
+                <label for="non-veg">Non-veg</label>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div class="filter">
+            <h4 class="filter_title">Avialability</h4>
+            <hr />
+            <div class="filter_items">
+              <div class="filter_item">
+                <input type="checkbox" id="veg" />
+                <label for="veg">In Stock</label>
+              </div>
+              <div class="filter_item">
+                <input type="checkbox" id="non-veg" />
+                <label for="non-veg">Out of Stock</label>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div class="filter">
+            <h4 class="filter_title">Price Range</h4>
+            <hr />
+            <div class="filter_items">
+              <div class="filter_item">
+                <input type="checkbox" id="veg" />
+                <label for="veg"> &lt; 100</label>
+              </div>
+              <div class="filter_item">
+                <input type="checkbox" id="non-veg" />
+                <label for="non-veg">100 - 300</label>
+              </div>
+              <div class="filter_item">
+                <input type="checkbox" id="non-veg" />
+                <label for="non-veg"> &gt; 300</label>
+              </div>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </div>
+      <div class="product_section">
+        <div class="product_heading_section">
+          <h4 class="product_heading">All Products</h4>
+          <div class="product_sort">
+            <p>Sort By</p>
+            <select name="sort" id="sort">
+              <option value="new">New</option>
+              <option value="old">Old</option>
+            </select>
+          </div>
+        </div>
+        <hr />
+        <div class="product_list">
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_img">
+              <img src="/media/product.jpg" alt="" />
+            </div>
+            <div class="product_details">
+              <p class="product_name">Red Chily</p>
+              <p class="product_price">
+                <span class="text-red-500">Rs. 260.00</span>
+                <span class="line-through text-slate-400">Rs. 380.00</span>
+              </p>
+            </div>
+            <div class="product_button">
+              <a href="#">View Product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -30,6 +30,15 @@ Default: 1
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+:root {
+  --primary: #91542b;
+  --secondary: #b1912e;
+  --dark: #333;
+  --white: #f3f9e3;
+  --btn-primary: #91542b;
+  --btn-primary-hover: #333;
+  --chilly-red: #931f1d;
+}
 
 * {
   margin: 0;
