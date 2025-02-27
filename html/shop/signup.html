@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/default.css" />
+    <link rel="stylesheet" href="/css/genral.css" />
+    <link rel="stylesheet" href="/css/quries.css" />
+    <link rel="stylesheet" href="/css/shop/shop.css" />
+    <link rel="stylesheet" href="/css/shop/signup.css" />
+    <title>Document</title>
+</head>
+
+<body class="">
+    <header class="header">
+        <a href="#section-hero">
+            <img src="/media/logo.png" alt="Rutu masale logo" class="logo" />
+        </a>
+        <nav class="main-nav-container">
+            <div class="nav-left main-nav">
+                <ul class="main-nav-list">
+                    <li>
+                        <form class="max-w-md mx-auto search_form">
+                            <label for="search_box" class="sr-only">Search here</label>
+                            <div class="relative">
+                                <!-- <div
+                    class="absolute inset-y-0 right-0 p-4 pr-20 flex items-center pl-3 pointer-events-none search_form button"
+                  >
+                    <ion-icon class="nav-icon" name="search-outline"></ion-icon>
+                  </div> -->
+                                <input type="text" id="search_box" class="block w-full p-4 pl-10"
+                                    placeholder="Search..." required />
+                                <button type="submit" class="search_form_button">
+                                    <ion-icon name="search-outline"></ion-icon>
+                                </button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-right main-nav">
+                <ul class="main-nav-list">
+                    <li>
+                        <a class="main-nav-link" href="#"><ion-icon class="nav-icon"
+                                name="heart-outline"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="#"><ion-icon class="nav-icon" name="cart-outline"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="#"><ion-icon class="nav-icon"
+                                name="person-circle-outline"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav md hydrated" name="menu-outline" role="img"></ion-icon>
+            <ion-icon class="icon-mobile-nav md hydrated" name="close-outline" role="img"></ion-icon>
+        </button>
+    </header>
+    <main class="">
+        <section class="signup-section">
+            <div class="signup-container">
+                <div class="signup-form-container">
+                    <div class="signup-form-div">
+                        <h2>Sign Up for Rutu Masale</h2>
+                        <p>Create your account to explore premium spices and exclusive offers!</p>
+                        <form action="#" class="mu-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Enter your email" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" placeholder="Enter your password" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm_password">Confirm Password</label>
+                                <input type="password" id="confirm_password" placeholder="Enter your password again"
+                                    required />
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn">Sign Up</button>
+                            </div>
+                            <div class="form-group">
+                                <p>Already have an account? <a href="/html/shop/signin.html">Login</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="/media/signup2.jpg" alt="masale" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
