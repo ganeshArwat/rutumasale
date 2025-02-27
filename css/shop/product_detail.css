@@ -1,0 +1,140 @@
+:root {
+  --primary: #91542b;
+  --primary-tint: #deccbf;
+  --secondary: #b1912e;
+  --dark: #333;
+  --white: #f3f9e3;
+  --btn-primary: #91542b;
+  --btn-primary-hover: #333;
+  --chilly-red: #931f1d;
+}
+
+.prodcut_detail_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
+}
+
+.product_detail_image {
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+  border-radius: 9px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  /* 
+  border-radius: 11px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+   */
+}
+
+.product_detail_section_right h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.product_review {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.price {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.discount {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 2.4rem;
+}
+
+.discount_price {
+  text-decoration: line-through;
+}
+
+.product_detail_button_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.add-to-cart-btn,
+.add-to-cart-btn:link,
+.add-to-cart-btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  background-color: var(--secondary);
+  color: #f3f9e3;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.add-to-cart-btn:hover,
+.add-to-cart-btn:active {
+  background-color: #333;
+  color: #f3f9e3;
+}
+
+.buy-now-bnt,
+.buy-now-bnt:link,
+.buy-now-bnt:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  background-color: #91542b;
+  color: #f3f9e3;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.buy-now-bnt:hover,
+.buy-now-bnt:active {
+  background-color: #333;
+  color: #f3f9e3;
+}
+
+.description_heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+
+.description_title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  margin-top: 1.2rem;
+}
+
+.description_content {
+  line-height: 1.2;
+}
+
+.similar_products_heading {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-left: 4.8rem;
+  padding-left: 4.8rem;
+}

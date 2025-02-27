@@ -168,6 +168,9 @@
 /* Body */
 /***************************************/
 
+.main_section{
+  margin-top: 4.2rem;
+}
 .body-section {
   padding-top: 1rem;
   display: grid;

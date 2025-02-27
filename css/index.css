@@ -1,3 +1,14 @@
+:root {
+  --primary: #91542b;
+  --primary-tint: #deccbf;
+  --secondary: #b1912e;
+  --dark: #333;
+  --white: #f3f9e3;
+  --btn-primary: #91542b;
+  --btn-primary-hover: #333;
+  --chilly-red: #931f1d;
+}
+
 body {
   position: relative;
 }
@@ -112,6 +123,13 @@ body {
   margin-top: 16.4rem;
 }
 
+.company-name {
+  color: var(--primary);
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
@@ -209,7 +227,6 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
 }
-
 
 .about-us-image-container {
   height: 100%;
